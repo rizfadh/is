@@ -21,8 +21,9 @@ function Prediction({ answer }) {
 
     useEffect(() => {
         const getPredictionHandler = async () => {
-            const { prediction } = await getPrediction(postData)
+            const { data, prediction } = await getPrediction(postData)
             const result = prediction === 'less' ? 'lebih kecil' : 'lebih besar'
+            console.log(data)
             setPrediction(result)
         }
 
