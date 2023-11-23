@@ -22,6 +22,7 @@ function Question({ number, question, choices, setNumber, setAnswer }) {
                         className='form-control'
                         name='input'
                         id='input'
+                        step='0.1'
                         required
                     />
                     <button type='submit' className='btn btn-primary'>
