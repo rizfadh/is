@@ -36,7 +36,7 @@ function Prediction({ answer }) {
             <p>
                 {prediction.length == 0
                     ? 'Loading...'
-                    : `Kamu ${prediction} terkena serangan jantung`}
+                    : `Kamu memiliki kemungkinan ${prediction} untuk terkena serangan jantung`}
             </p>
         </div>
     )
